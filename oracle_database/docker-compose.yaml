@@ -1,0 +1,14 @@
+version : "3"
+services:
+  myexdb:
+    image: oracle/database:18.4.0-xe
+    ports:
+      - "11521:1521"
+      - "55500:5500"
+    volumes:
+      - /home/williamfirmino/Projetos/Docker/oracle/oradata:/opt/oracle/oradata
+    environment:
+      - ORACLE_PWD=Testing12345
+      - ORACLE_CHARACTERSET=AL32UTF8
+        
+
