@@ -1,1 +1,1 @@
-files and snippets utils for me
+files and snippets that are useful for me
